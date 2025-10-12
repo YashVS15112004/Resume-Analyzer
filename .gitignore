@@ -1,0 +1,65 @@
+# --- General ---
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor directories
+.idea/
+.vscode/
+
+# Log files
+*.log
+
+
+# --- Python / FastAPI Backend ---
+# Virtual environment
+# This is the most important one for Python!
+venv/
+env/
+.venv/
+.env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+
+# --- Node.js / React / Vite Frontend ---
+# Dependencies
+# This is the most important one for Node.js!
+node_modules/
+
+# Build output
+dist/
+.vite/
+coverage/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment variables for Vite
+.env.local
+.env.*.local
+
+
+# --- Project Secrets ---
+# This is CRITICAL to prevent leaking your API keys and database passwords
+.env
+
+# --- Uploaded Sample Data (Optional) ---
+# If you have a directory for temporary uploads that you don't want in git
+uploads/

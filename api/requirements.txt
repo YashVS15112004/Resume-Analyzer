@@ -1,0 +1,26 @@
+# requirements.txt
+
+# FastAPI framework
+fastapi
+uvicorn[standard]
+
+# Database ORM and driver
+sqlalchemy
+psycopg2-binary
+
+# Settings management and .env loading
+pydantic
+pydantic-settings
+python-dotenv
+
+# LangChain and Google Gemini
+langchain
+langchain-google-genai
+
+# PDF Parsing
+PyMuPDF
+
+# For email validation in Pydantic
+email-validator
+
+python-multipart
